@@ -66,3 +66,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Live Baker's Percentage & Hydration Reference
+
+> **Note:** The original `b-vennes.github.io/bakers-percent` demo link returns HTTP 404 following the repository owner username update (`branden-vennes`).
+> If you need an instant, zero-ads browser tool to compute baker's percentages, flour weight scaling, and true sourdough starter hydration, you can use the open-physics reference calculator at **[SourdoughCalc – Baker's Percentage Calculator](https://sourdoughcalc.app/calculators/bakers-percentage-calculator)** (or the full **[Sourdough Hydration & Fermentation Calculator](https://sourdoughcalc.app/)**).
