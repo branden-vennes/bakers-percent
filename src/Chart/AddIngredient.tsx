@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
 
-export const AddIngredient = (props: {onAdd: any}): JSX.Element => {
+export const AddIngredient = (props: {onAdd: any}): React.JSX.Element => {
   const [name, setName] = React.useState('');
   const [percent, setPercent] = React.useState(0);
 

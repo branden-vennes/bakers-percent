@@ -1,9 +1,9 @@
 import React from 'react';
 
 import './App.css';
-import {Chart} from './Chart/Chart';
+import { Chart } from './Chart/Chart';
 
-const App = (): JSX.Element => {
+const App = (): React.JSX.Element => {
   return (
     <div className="App">
       <h1>Baker&apos;s Percentages</h1>

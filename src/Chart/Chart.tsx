@@ -1,19 +1,19 @@
 import * as React from 'react';
 
-import TableContainer from '@material-ui/core/TableContainer';
-import Table from '@material-ui/core/Table';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import TableCell from '@material-ui/core/TableCell';
-import TableBody from '@material-ui/core/TableBody';
-import Paper from '@material-ui/core/Paper';
+import TableContainer from '@mui/material/TableContainer';
+import Table from '@mui/material/Table';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import TableCell from '@mui/material/TableCell';
+import TableBody from '@mui/material/TableBody';
+import Paper from '@mui/material/Paper';
 
 // eslint-disable-next-line no-unused-vars
 import {Ingredient} from './Ingredient';
 import {IngredientRow} from './IngredientRow/IngredientRow';
 import {AddIngredient} from './AddIngredient';
 
-export const Chart = (): JSX.Element => {
+export const Chart = (): React.JSX.Element => {
   const initialIngredients: Array<Ingredient> = [
     {
       name: 'flour',
