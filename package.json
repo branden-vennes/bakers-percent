@@ -16,9 +16,8 @@
     "typescript": "^7.0.2"
   },
   "scripts": {
-    "dev": "bun --hot src/index.ts",
     "build": "bun build ./src/index.html --outdir=dist --sourcemap --target=browser --minify --define:process.env.NODE_ENV='\"production\"' --env='BUN_PUBLIC_*'",
-    "start": "NODE_ENV=production bun src/index.ts"
+    "postinstall": "bun2nix -o bun.nix"
   },
   "peerDependencies": {
     "typescript": "^7"
